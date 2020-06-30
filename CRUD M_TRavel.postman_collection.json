@@ -1,0 +1,742 @@
+{
+	"info": {
+		"_postman_id": "77a5941a-5bf0-4808-a5d4-e9aa2d2459c5",
+		"name": "CRUD M_TRavel",
+		"description": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8181/m_travel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8181/m_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_travel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/m_travel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "7777",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildanaufalTravel",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "CompanyGilda",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumber",
+							"value": "01123",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumberHaj",
+							"value": "88776",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "bojongsoang",
+							"type": "text"
+						},
+						{
+							"key": "provinceID",
+							"value": "77",
+							"type": "text"
+						},
+						{
+							"key": "cityID",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "naufalgilda",
+							"type": "text"
+						},
+						{
+							"key": "mobileNumber",
+							"value": "082116381654",
+							"type": "text"
+						},
+						{
+							"key": "officeNumber",
+							"value": "02654433227",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "gildagilda91@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "officeEmail",
+							"value": "gildatravel@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "gildatravel.com",
+							"type": "text"
+						},
+						{
+							"key": "travelStatus",
+							"value": "resmi",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "9/10",
+							"type": "text"
+						},
+						{
+							"key": "usrname",
+							"value": "agil",
+							"type": "text"
+						},
+						{
+							"key": "psword",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"value": "oval",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/m_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_travel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/getmtravel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "12346",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildaTravel",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/getmtravel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getmtravel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/getmtravel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "12346",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildaTravel",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/getmtravel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getmtravel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/m_travel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8181/m_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_travel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/m_travel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "7777",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildanaufalTravel",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "CompanyGilda",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumber",
+							"value": "01123",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumberHaj",
+							"value": "88776",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "bojongsoang",
+							"type": "text"
+						},
+						{
+							"key": "provinceID",
+							"value": "77",
+							"type": "text"
+						},
+						{
+							"key": "cityID",
+							"value": "35",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "naufalgilda",
+							"type": "text"
+						},
+						{
+							"key": "mobileNumber",
+							"value": "082116381654",
+							"type": "text"
+						},
+						{
+							"key": "officeNumber",
+							"value": "02654433227",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "gildagilda91@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "officeEmail",
+							"value": "gildatravel@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "gildatravel.com",
+							"type": "text"
+						},
+						{
+							"key": "travelStatus",
+							"value": "resmi",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "9/10",
+							"type": "text"
+						},
+						{
+							"key": "usrname",
+							"value": "agil",
+							"type": "text"
+						},
+						{
+							"key": "psword",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"value": "oval",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/m_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_travel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/m_travel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "12345",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "bismilah",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/m_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_travel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/m_travel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "ABC123",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildaTravel",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "GildaCompany",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumber",
+							"value": "112233",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumberHaj",
+							"value": "111222",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "bandung",
+							"type": "text"
+						},
+						{
+							"key": "provinceID",
+							"value": "65",
+							"type": "text"
+						},
+						{
+							"key": "cityID",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "gildanaufal",
+							"type": "text"
+						},
+						{
+							"key": "mobileNumber",
+							"value": "082116381655",
+							"type": "text"
+						},
+						{
+							"key": "officeNumber",
+							"value": "0265112233",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "gildanaufal@student.telkomuniversity.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "officeEmail",
+							"value": "travelgilda@telkomuniversity.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "travelgilda.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "travelStatus",
+							"value": "official",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "10/10",
+							"type": "text"
+						},
+						{
+							"key": "usrName",
+							"value": "gildanaufal",
+							"type": "text"
+						},
+						{
+							"key": "psword",
+							"value": "aaaaa",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"value": "bintang",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/m_travel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"m_travel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/getmtravel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "ABC123",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildaTravel",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "GildaCompany",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumber",
+							"value": "112233",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumberHaj",
+							"value": "111222",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "bandung",
+							"type": "text"
+						},
+						{
+							"key": "provinceID",
+							"value": "65",
+							"type": "text"
+						},
+						{
+							"key": "cityID",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "gildanaufal",
+							"type": "text"
+						},
+						{
+							"key": "mobileNumber",
+							"value": "082116381655",
+							"type": "text"
+						},
+						{
+							"key": "officeNumber",
+							"value": "0265112233",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "gildanaufal@student.telkomuniversity.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "officeEmail",
+							"value": "travelgilda@telkomuniversity.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "travelgilda.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "travelStatus",
+							"value": "official",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "10/10",
+							"type": "text"
+						},
+						{
+							"key": "usrName",
+							"value": "gildanaufal",
+							"type": "text"
+						},
+						{
+							"key": "psword",
+							"value": "aaaaa",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"value": "bintang",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/getmtravel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getmtravel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8181/getmtravel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "travelID",
+							"value": "ABC123",
+							"type": "text"
+						},
+						{
+							"key": "travelName",
+							"value": "GildaTravel",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "GildaCompany",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumber",
+							"value": "112233",
+							"type": "text"
+						},
+						{
+							"key": "licenseNumberHaj",
+							"value": "111222",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "bandung",
+							"type": "text"
+						},
+						{
+							"key": "provinceID",
+							"value": "65",
+							"type": "text"
+						},
+						{
+							"key": "cityID",
+							"value": "33",
+							"type": "text"
+						},
+						{
+							"key": "contactPerson",
+							"value": "gildanaufal",
+							"type": "text"
+						},
+						{
+							"key": "mobileNumber",
+							"value": "082116381655",
+							"type": "text"
+						},
+						{
+							"key": "officeNumber",
+							"value": "0265112233",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "gildanaufal@student.telkomuniversity.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "officeEmail",
+							"value": "travelgilda@telkomuniversity.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "website",
+							"value": "travelgilda.ac.id",
+							"type": "text"
+						},
+						{
+							"key": "travelStatus",
+							"value": "official",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "10/10",
+							"type": "text"
+						},
+						{
+							"key": "usrName",
+							"value": "gildanaufal",
+							"type": "text"
+						},
+						{
+							"key": "psword",
+							"value": "aaaaa",
+							"type": "text"
+						},
+						{
+							"key": "logo",
+							"value": "bintang",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8181/getmtravel",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getmtravel"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
